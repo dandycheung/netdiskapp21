@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.RegisterFragment">
+
+    <RelativeLayout
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBg">
+
+        <!-- 返回按钮 -->
+        <ImageView
+            android:id="@+id/imageView_register_to_login"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/ic_left_48"/>
+
+        <!-- 注册页面提示语句 -->
+        <TextView
+            android:id="@+id/description_register"
+            android:layout_below="@+id/imageView_register_to_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="输入账号密码"
+            android:textColor="@color/colorBlack"
+            android:textSize="45dp"/>
+
+        <!-- 账号输入框 -->
+        <EditText
+            android:id="@+id/regUserEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@+id/description_register"
+            android:layout_marginTop="30dp"
+            android:inputType="text"
+            android:hint="username"
+            android:textColorHint="@color/colorHint" />
+
+        <EditText
+            android:id="@+id/regPwdEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@id/regUserEditText"
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:hint="password"
+            android:textColorHint="@color/colorHint"/>
+
+        <!-- 注册按钮 -->
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ripple_login"
+            android:text="注册"
+            android:textSize="24sp"
+            android:textColor="@color/white"/>
+
+        <!-- 线性布局：协议&&政策邀请码 使用多个 TextView 拼接而成 -->
+        <LinearLayout
+            android:id="@+id/protocol_policy"
+            android:layout_below="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox_isChecked"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已阅读并同意"
+                android:textColor="@color/colorRegisterDescription"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="服务协议"
+                android:textColor="@color/colorLink"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="和"
+                android:textColor="@color/colorRegisterDescription"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="隐私政策"
+                android:textColor="@color/colorLink"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+
+    <!-- 修改 主题色 -->
+    <color name="purple_500">#2196f3</color>
+    <color name="purple_700">#1970b7</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue_100">#0099ff</color>
+    <color name="grey_100">#eeeeee</color>
+    <color name="input_background">#f2f3f7</color>
+    <color name="input_hint">#b0b2bf</color>
+
+    <!-- recover/update -->
+    <color name="colorBgTitle">#00bcff</color>
+    <color name="colorBgRecover">#e6e6e6</color>
+    <color name="colorFont">#0079ff</color>
+    <color name="colorAccountFont">#808080</color>
+    <color name="colorHintFont">#757575</color>
+
+    <!-- 复用模块 widget demo -->
+    <color name="colorBgLoading">#7f7f7f</color>
+    <color name="colorBgWhite">#ffffff</color>
+    <color name="colorBgBlack">#000000</color>
+    <color name="colorAgree">#40a0ff</color>
+
+    <!-- custom -->
+    <color name="colorBg">#ffffff</color>
+    <color name="colorHint">#b0b2bf</color>
+    <color name="colorBlackFont">#030919</color>
+    <color name="colorVertical">#d3d4d9</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLink">#40a0ff</color>
+    <color name="colorRegisterDescription">#878b99</color>
+    <color name="colorBgEditText">#f2f3f7</color>
+
+    <!-- file list -->
+    <color name="color_file_seq_num">#040819</color>
+    <color name="color_file_name">#040819</color>
+    <color name="color_file_create_time">#afb3bd</color>
+    <color name="color_file_size">#afb3bd</color>
+
+    <!-- explorer -->
+    <color name="color_explorer_folder">#ffd94a</color>
+    <color name="color_explorer_file">#d3d8de</color>
+
+    <!-- bg popup window -->
+    <color name="bg_popup_window">#09A7FF</color>
+
+    <!-- separator -->
+    <color name="separator">#CACACA</color>
+
+    <!-- theme color for coder -->
+    <color name="theme_blue">#2196f3</color>
+
+    <!-- button_bg -->
+    <color name="btn_bg_grey">#E0E0E0</color>
+
+    <!-- custom dialog -->
+    <color name="cancel_custom_dialog">#18D7D7</color>
+
+
+</resources>

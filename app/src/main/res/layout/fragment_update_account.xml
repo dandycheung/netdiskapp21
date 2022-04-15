@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.UpdateAccountFragment">
+
+    <!-- RecoverPasswordActivity -->
+    <RelativeLayout
+        android:id="@+id/recover_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBgRecover">
+
+        <!-- head -->
+        <RelativeLayout
+            android:id="@+id/head_recover"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorBgTitle">
+
+            <ImageView
+                android:id="@+id/imageView_update_to_login"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_left_white_48"/>
+
+            <!-- 提示 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="修改密码"
+                android:textSize="30sp"
+                android:textColor="@color/colorBgWhite"/>
+
+        </RelativeLayout>
+
+        <!-- main area -->
+        <TextView
+            android:id="@+id/guide_recover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head_recover"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:text="账号："
+            android:textSize="20sp"
+            android:textColor="@color/colorAccountFont"/>
+
+        <!-- 输入账号 -->
+        <EditText
+            android:id="@+id/edit_account"
+            android:layout_below="@+id/guide_recover"
+            android:padding="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorBg"
+            android:hint="账号/邮箱地址"
+            android:inputType="text"
+            android:textColorHint="@color/colorHintFont"/>
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_below="@+id/edit_account"
+            android:padding="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorBg"
+            android:hint="新密码"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorHintFont"/>
+
+        <!-- 确认按钮 -->
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_below="@+id/edit_password"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="确定"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:background="@drawable/ripple_login"/>
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/separator"/>
+
+        <!-- 我要反馈 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentBottom="true"
+            android:text="我要反馈"
+            android:textSize="15sp"
+            android:textColor="@color/colorFont"/>
+
+        <!-- 版权信息 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="Copyright O 1998 - 2021 Netdisk_zdm. All Rights Reserved."
+            android:layout_marginBottom="5dp"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

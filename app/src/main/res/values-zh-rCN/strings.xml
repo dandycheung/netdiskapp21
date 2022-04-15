@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">简易网盘</string>
+    <string name="menu_home">文件</string>
+    <string name="menu_friends">分享</string>
+    <string name="menu_mine">我的</string>
+    <string name="hello_blank_fragment">你好</string>
+    <string name="hint_username">用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="ic_description_login">登陆图标</string>
+    <string name="button_login">登录</string>
+    <string name="btn_forgetPwd">忘记密码?</string>
+    <string name="btn_registerNow">立即注册</string>
+    <string name="title_net_disk">简易网盘</string>
+    <string name="title_login">登录</string>
+    <string name="title_register">注册</string>
+    <string name="title_update_account">修改密码</string>
+</resources>

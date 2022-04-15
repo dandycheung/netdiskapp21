@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--
+     1. 设置形状为矩形 android:shape="rectangle"
+     2. 设置背景色为 白色  <solid android:color="@color/white" />
+     3. 设置圆角  <corners android:radius="5dp" />
+     -->
+
+    <solid android:color="@color/white" />
+    <corners android:radius="40dp" />
+
+</shape>

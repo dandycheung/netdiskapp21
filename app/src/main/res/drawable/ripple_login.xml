@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#22000000">
+    <!-- api最低为21支持水波纹 -->
+    <!-- 直角按钮可直接使用
+           android:foreground="?selectableItemBackground"
+           即可获得按压水波纹效果
+     -->
+    <item android:drawable="@drawable/bg_login"/>
+
+</ripple>

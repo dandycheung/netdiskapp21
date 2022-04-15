@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">net-disk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_home">files</string>
+    <string name="menu_friends">share</string>
+    <string name="menu_mine">mine</string>
+
+    <!-- hint -->
+    <string name="hint_username">username</string>
+    <string name="hint_password">password</string>
+    <!-- description -->
+    <string name="ic_description_login">ic_login</string>
+
+    <string name="button_login">login</string>
+
+    <!-- login Activity -->
+    <string name="btn_forgetPwd">forget password?</string>
+    <string name="btn_registerNow">register now</string>
+    <string name="title_net_disk">Simple Net Disk</string>
+    <string name="title_login">login</string>
+    <string name="title_register">register</string>
+    <string name="title_update_account">update account</string>
+
+
+</resources>

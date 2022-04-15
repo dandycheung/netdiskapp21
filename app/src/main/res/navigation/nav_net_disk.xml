@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_net_disk"
+    app:startDestination="@id/filesFragment">
+
+    <fragment
+        android:id="@+id/filesFragment"
+        android:name="com.zdm.net_disk_app_21.fragment.FilesFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_files" />
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.zdm.net_disk_app_21.fragment.FriendsFragment"
+        android:label="@string/menu_friends"
+        tools:layout="@layout/fragment_friends" />
+    <fragment
+        android:id="@+id/mineFragment"
+        android:name="com.zdm.net_disk_app_21.fragment.MineFragment"
+        android:label="@string/menu_mine"
+        tools:layout="@layout/fragment_mine" />
+</navigation>
